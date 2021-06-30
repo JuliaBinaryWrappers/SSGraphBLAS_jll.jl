@@ -8,7 +8,7 @@ function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll)
     JLLWrappers.@init_library_product(
         libgraphblas,
-        "lib/libgraphblas.5.0.4.dylib",
+        "lib/libgraphblas.5.1.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
