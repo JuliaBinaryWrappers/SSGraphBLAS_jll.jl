@@ -3,12 +3,12 @@ export libgraphblas
 
 using CompilerSupportLibraries_jll
 JLLWrappers.@generate_wrapper_header("SSGraphBLAS")
-JLLWrappers.@declare_library_product(libgraphblas, "@rpath/libgraphblas.5.dylib")
+JLLWrappers.@declare_library_product(libgraphblas, "@rpath/libgraphblas.6.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll)
     JLLWrappers.@init_library_product(
         libgraphblas,
-        "lib/libgraphblas.5.1.7.dylib",
+        "lib/libgraphblas.6.0.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
