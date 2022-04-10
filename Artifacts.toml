@@ -1,143 +1,143 @@
 [[SSGraphBLAS]]
 arch = "aarch64"
-git-tree-sha1 = "1b18ce1a10c2f42b938984a42cb09589faf7d32d"
+git-tree-sha1 = "b4bf059f11d8cd1f89fffa3c2989ea7d245b170f"
 os = "macos"
 
     [[SSGraphBLAS.download]]
-    sha256 = "44a81f75a10651ebd49a0f67d988b8f3a93a1678e152a237b48fb841101009e9"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "0f1fa36ade47c75ae225c33d462391da580658f91eee78db6a61909e11011186"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.aarch64-apple-darwin.tar.gz"
 [[SSGraphBLAS]]
 arch = "aarch64"
-git-tree-sha1 = "d85be32775ff96c6acad5b3726c44468ab2a2175"
+git-tree-sha1 = "997c7188a2ae4473fb4d04219dd73da67d6ce1aa"
 libc = "glibc"
 os = "linux"
 
     [[SSGraphBLAS.download]]
-    sha256 = "0e94a7925cdb2bf08c342973e40ad9e47192e39bc07b70290f330f90033062c8"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "6e830c97c21cf6ecb9f1bcb53fd5fff6f9dccb547a17df9f46191d628c55d94d"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.aarch64-linux-gnu.tar.gz"
 [[SSGraphBLAS]]
 arch = "aarch64"
-git-tree-sha1 = "0199f93cbc42a487d06ee72905a126e1f5f2083a"
+git-tree-sha1 = "7c7422f3496eac3db10f378a408560dfd814b893"
 libc = "musl"
 os = "linux"
 
     [[SSGraphBLAS.download]]
-    sha256 = "4578f9e49677b71a70344d1f00852906e6d03f222466b264ea2930ed771fa2b7"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.aarch64-linux-musl.tar.gz"
+    sha256 = "17610960e65c0146da496163b81bcb91efbb74c0e361a486cc00f33eb8095c23"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.aarch64-linux-musl.tar.gz"
 [[SSGraphBLAS]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "3938000fd243328a5a7d9dcb0e582cf346b9c19a"
+git-tree-sha1 = "580bcc4980e86a8349fd6f67733f367197953a26"
 libc = "glibc"
 os = "linux"
 
     [[SSGraphBLAS.download]]
-    sha256 = "84fa1508fda752fba2599698bd4bf750496d74f887e29898823c06c6b9b075ed"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "01c964537334215112a1c942063d9001eff31f366fbc489dc1f24d389de59431"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.armv6l-linux-gnueabihf.tar.gz"
 [[SSGraphBLAS]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "703d352fc0db9594f252f4f6ff5d052ecd93d99c"
+git-tree-sha1 = "1558b08e21aa34d782a1fa23326a206b72459a5f"
 libc = "musl"
 os = "linux"
 
     [[SSGraphBLAS.download]]
-    sha256 = "1a8c00f7dbfada9003ac944bd764e0c10a7ae2bc8cf80bff381339c1b1bf5d9e"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "179d982431189345f120ccc69718474e6eb31b99cde2e0c2957706e9871d91a3"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.armv6l-linux-musleabihf.tar.gz"
 [[SSGraphBLAS]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "ab1d9112ee3dd2f7b0dcfbf7ee9507cde33769ea"
+git-tree-sha1 = "92573027b1f295699b5ce8fdeabdd52d58034287"
 libc = "glibc"
 os = "linux"
 
     [[SSGraphBLAS.download]]
-    sha256 = "73f30d273b740b9bbd7c2d0f0f8515dfd838f72068e97643fb876f460ee6dd12"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "b354995d7244daf220c2e6edf138d9d2ca017da48dc0573cf767b520910d70fd"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.armv7l-linux-gnueabihf.tar.gz"
 [[SSGraphBLAS]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "b320c667dfa97395a32f5fc257c82fa3d6a61e45"
+git-tree-sha1 = "942f1e65e50cbb6513b4db0e1d9d8eac2e036e46"
 libc = "musl"
 os = "linux"
 
     [[SSGraphBLAS.download]]
-    sha256 = "88e258c294dbcc4d663fc0b53b8e2762f6f52d8eb70ea188f921bf96de94d982"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "c1e688ef3284094af500bfd6b8b27c4bb37bc0f40fcb098205f2cc1323e7ea24"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.armv7l-linux-musleabihf.tar.gz"
 [[SSGraphBLAS]]
 arch = "i686"
-git-tree-sha1 = "d244b8bb805c36a6b936f0ed0704309228b40697"
+git-tree-sha1 = "2f9f056ac7d61546d6f60ae606eb3b9371a0cc9f"
 libc = "glibc"
 os = "linux"
 
     [[SSGraphBLAS.download]]
-    sha256 = "a416a9877dcd044653bf944e7e0845fc39631139859988d0a64e390a7d6b3ce8"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.i686-linux-gnu.tar.gz"
+    sha256 = "d3184904572880e1f5fdba96cb0c2f794501e23d0dbc4958179d048ef971786d"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.i686-linux-gnu.tar.gz"
 [[SSGraphBLAS]]
 arch = "i686"
-git-tree-sha1 = "797b03b1a4becaec403cfe6ec2fc68829356c695"
+git-tree-sha1 = "6cdffaebc1ee5673601a46b7c7de99f25227b227"
 libc = "musl"
 os = "linux"
 
     [[SSGraphBLAS.download]]
-    sha256 = "a61340f108f2c099e29a70996d1672127c55e9a0a7d03bf7196a2f252c541025"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.i686-linux-musl.tar.gz"
+    sha256 = "3c5951103c0c987605dc150fc6b5825493f11b32aec1c44b897cb3f12f316ccf"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.i686-linux-musl.tar.gz"
 [[SSGraphBLAS]]
 arch = "i686"
-git-tree-sha1 = "efc2fedb431cca5e244c4989e74ae20914959272"
+git-tree-sha1 = "4e2aa9ea9139d8b514cf9b26940f767f1da05a92"
 os = "windows"
 
     [[SSGraphBLAS.download]]
-    sha256 = "393d935905207b376f0fa52b8741701a55fd52cc50b418b76e2e8edf20d75075"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.i686-w64-mingw32.tar.gz"
+    sha256 = "4cc573f2c39964b11287743b09701e0154125ea714bfdd8d9a0d4335cad61203"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.i686-w64-mingw32.tar.gz"
 [[SSGraphBLAS]]
 arch = "powerpc64le"
-git-tree-sha1 = "a5370cdec5fb116bf93e284e5140607c0150f674"
+git-tree-sha1 = "8c5ef8807af6624265c94e7b08240b1e153893dd"
 libc = "glibc"
 os = "linux"
 
     [[SSGraphBLAS.download]]
-    sha256 = "510fbd22e95385d46359828b45fbd7e02c45e25d1aa1478efecbb0946b9141f4"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "f370812a3a3b92ff700d3fdcacf2d495313593319a41033c3ad774f93e3109bd"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.powerpc64le-linux-gnu.tar.gz"
 [[SSGraphBLAS]]
 arch = "x86_64"
-git-tree-sha1 = "b7d270a01aefce72c5b85bb2c637a9106d85f076"
+git-tree-sha1 = "97e5cd7015961766d1641aa0899eddb99f1462d2"
 os = "macos"
 
     [[SSGraphBLAS.download]]
-    sha256 = "0634d6866ad5a1167e00fd8ab0a64afa913b2c22bee90dd904305aa6eedc2626"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "22c892bed1e1f5fbbdb591f246ad808a680b85cde5108c0d1f3cb84a0925c31d"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.x86_64-apple-darwin.tar.gz"
 [[SSGraphBLAS]]
 arch = "x86_64"
-git-tree-sha1 = "d5e643285920ae8f075ebb952a8e2cdbc8b62828"
+git-tree-sha1 = "2871270fca2c2eba16c807150f49ae214e97e3e1"
 libc = "glibc"
 os = "linux"
 
     [[SSGraphBLAS.download]]
-    sha256 = "538fdc55bfb3042f593fcb0ff79b1dc2b217a3f35cf04ac7091d45343dde5800"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "61483af7091e76f2220e1f9e8ad9d7d6320881f426b6e1c5cd24daadd785a3d5"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.x86_64-linux-gnu.tar.gz"
 [[SSGraphBLAS]]
 arch = "x86_64"
-git-tree-sha1 = "6e2f5c0273772fa2e9c32f42f36b1d5ca0b2b48f"
+git-tree-sha1 = "afb01345b845d391526e45502b8f91475914117f"
 libc = "musl"
 os = "linux"
 
     [[SSGraphBLAS.download]]
-    sha256 = "9ec8338cccbdcfda2424d5c13dc812a3e15bf55c52691de151df2d7b6ee79c09"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.x86_64-linux-musl.tar.gz"
+    sha256 = "9c585b74d5e5eaeaf6d07320e1eb8f24eacb50e0ad9b07d330122614f0a5ed20"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.x86_64-linux-musl.tar.gz"
 [[SSGraphBLAS]]
 arch = "x86_64"
-git-tree-sha1 = "9a2605439c479d0ac8b67bcacee2e71c1e4b5a1a"
+git-tree-sha1 = "63abbfb566c7c70e1dd021f48c32e54d228797e9"
 os = "freebsd"
 
     [[SSGraphBLAS.download]]
-    sha256 = "f8b6df486c228067146cee900b0f7d103664a8c2f950da66c624bec111cda8bf"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "5590e3f6ae9db2bee9d58d563cb4933e17497098cce4367187a0ddb914539de3"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.x86_64-unknown-freebsd.tar.gz"
 [[SSGraphBLAS]]
 arch = "x86_64"
-git-tree-sha1 = "2fad8164c7684f92c818170c38914487bf71cf80"
+git-tree-sha1 = "e3fc3d5ecee3369d151594a8c4473401fdaaea72"
 os = "windows"
 
     [[SSGraphBLAS.download]]
-    sha256 = "7fe649d27c84e4c95c21d6613e873f35e27a6d8b8800353ac0d9551f9506cab8"
-    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v6.2.1+0/SSGraphBLAS.v6.2.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "630f10925090bf3ba45886015da9f55fadf0b4b6bd2f1672cd9b7f6f0d676549"
+    url = "https://github.com/JuliaBinaryWrappers/SSGraphBLAS_jll.jl/releases/download/SSGraphBLAS-v7.0.3+0/SSGraphBLAS.v7.0.3.x86_64-w64-mingw32.tar.gz"
