@@ -10,7 +10,7 @@ function __init__()
     JLLWrappers.@generate_init_header(libblastrampoline_jll, LLVMOpenMP_jll, SuiteSparse_jll)
     JLLWrappers.@init_library_product(
         libgraphblas,
-        "lib/libgraphblas.9.1.0.dylib",
+        "lib/libgraphblas.9.3.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
