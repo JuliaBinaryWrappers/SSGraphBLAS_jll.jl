@@ -5,7 +5,7 @@ using libblastrampoline_jll
 using CompilerSupportLibraries_jll
 using SuiteSparse_jll
 JLLWrappers.@generate_wrapper_header("SSGraphBLAS")
-JLLWrappers.@declare_library_product(libgraphblas, "libgraphblas.so.9")
+JLLWrappers.@declare_library_product(libgraphblas, "libgraphblas.so.10")
 function __init__()
     JLLWrappers.@generate_init_header(libblastrampoline_jll, CompilerSupportLibraries_jll, SuiteSparse_jll)
     JLLWrappers.@init_library_product(

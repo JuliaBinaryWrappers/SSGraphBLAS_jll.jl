@@ -5,12 +5,12 @@ using libblastrampoline_jll
 using LLVMOpenMP_jll
 using SuiteSparse_jll
 JLLWrappers.@generate_wrapper_header("SSGraphBLAS")
-JLLWrappers.@declare_library_product(libgraphblas, "@rpath/libgraphblas.9.dylib")
+JLLWrappers.@declare_library_product(libgraphblas, "@rpath/libgraphblas.10.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(libblastrampoline_jll, LLVMOpenMP_jll, SuiteSparse_jll)
     JLLWrappers.@init_library_product(
         libgraphblas,
-        "lib/libgraphblas.9.3.1.dylib",
+        "lib/libgraphblas.10.0.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
