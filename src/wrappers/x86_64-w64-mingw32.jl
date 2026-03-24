@@ -3,11 +3,10 @@ export libgraphblas
 
 using libblastrampoline_jll
 using CompilerSupportLibraries_jll
-using SuiteSparse_jll
 JLLWrappers.@generate_wrapper_header("SSGraphBLAS")
 JLLWrappers.@declare_library_product(libgraphblas, "libgraphblas.dll")
 function __init__()
-    JLLWrappers.@generate_init_header(libblastrampoline_jll, CompilerSupportLibraries_jll, SuiteSparse_jll)
+    JLLWrappers.@generate_init_header(libblastrampoline_jll, CompilerSupportLibraries_jll)
     JLLWrappers.@init_library_product(
         libgraphblas,
         "bin\\libgraphblas.dll",
